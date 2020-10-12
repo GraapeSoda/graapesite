@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.good-stuff {
+    background: rgb(5, 5, 5);
+    padding: 10%;
+    text-align: center;
+    
+}
+
+.good-stuff h1 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+}
+
+.circle {
+    width: 150px; 
+    height: 150px;
+    background: linear-gradient(90deg, #ff6da5, #ffc772);
+    border-radius: 50%;
+    position: absolute;
+}
+
+#second-circle{
+    top: 5%;
+    left: 75%;
+    height: 100px;
+    width: 100px;
+}
+
+#third-circle {
+    top: 35%;
+    left: 65%;
+    height: 50px;
+    width: 50px;
+}
+
+.about {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.gallery img {
+    border-radius: 5px;
+    width: 40%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.menu {
+    padding: 20px;
+    background: rgb(5, 5, 5);
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.opacity {
+    background: rgba(0, 0, 0, 0.479);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.slider {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+}
+
+.slider img {
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    display: flex;
+}
+
+.slider a {
+    outline: none;
+}
+
+.seti img {
+    width: 4%;
+    transition: .5s;
+}
+
+.seti img:hover {
+    transform: scale(0.75);
+}
