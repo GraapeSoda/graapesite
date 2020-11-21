@@ -7,6 +7,16 @@ html,body {
     scroll-behavior: smooth;
 }
 
+@keyframes text-grape {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
 .good-stuff {
     background: rgb(5, 5, 5);
     padding: 10%;
@@ -14,10 +24,27 @@ html,body {
     
 }
 
+.moon {
+    filter: invert(100);
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 3%;
+}
+
+.visible {
+    display: block;
+}
+
+.inv {
+    display: none;
+}
+
 .good-stuff h1 {
     color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 60px;
+    animation: text-grape 3s;
 }
 
 .circle {
@@ -112,4 +139,12 @@ html,body {
 
 .seti img:hover {
     transform: scale(0.75);
+}
+
+.dark {
+    background: rgb(0, 0, 0);
+}
+
+.dark .about {
+    color: white;
 }

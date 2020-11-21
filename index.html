@@ -13,13 +13,14 @@
 <link rel="stylesheet" type="text/css" href="/slick-1.8.1/slick/slick-theme.css">
 <link rel="shortcut icon" href="https://sun9-12.userapi.com/S-3RI46QrXvyJ9VlKnpWTNCjPoABb_CLz9VnSw/GtnABr6AK48.jpg">
 </head>
-<body>
+<body id="target">
     <header>
         <div class="menu" id="menu">
             <a href="#" class="button">Главная</a>
             <a href="#about" class="button">Мои работы</a>
             <a href="#sety" class="button">Соц. Сети</a>
-            <a href="" class="button"></a>
+            <a id="dark" href="javascript:void(0)"><img id="yes" ondragstart="return false" src="/moon.png" alt="" class="moon"></a>
+            <a id="dark2" href="javascript:void(0)"><img id="non" ondragstart="return false" src="/sun.png" alt="" class="moon"></a>
         </div>
     </header>
     <div class="good-stuff">
@@ -51,6 +52,7 @@
     <a data-fancybox="gallery" data-caption="🍇 Моя работа на конкурс дизайнеров Додо Пицца Нефтекамск" class="gallery" href="https://sun9-8.userapi.com/Z_O19wvjA93_Ujf2Xk446OQoH7YSkkZTiKyKwQ/NzIkCjJy26s.jpg"><img src="https://sun9-8.userapi.com/Z_O19wvjA93_Ujf2Xk446OQoH7YSkkZTiKyKwQ/NzIkCjJy26s.jpg"></a>
     <a data-fancybox="gallery" data-caption="🍇 Подпись для EDWARD COSTRO" class="gallery" href="https://sun9-8.userapi.com/s2SNPY5GYMqT849Pf5hRGEwfENb47dAsfZ6Zjw/7jZqlhWWZW0.jpg"><img src="https://sun9-8.userapi.com/s2SNPY5GYMqT849Pf5hRGEwfENb47dAsfZ6Zjw/7jZqlhWWZW0.jpg"></a>
     <a data-fancybox="gallery" data-caption="🍇 Тэг для Катя Лунева" class="gallery" href="https://sun9-38.userapi.com/k4r6IvDsZ1ZUpDIxazbOnaxK4QQue85uQ5l4mw/mxNZF3_v2OQ.jpg"><img src="https://sun9-38.userapi.com/k4r6IvDsZ1ZUpDIxazbOnaxK4QQue85uQ5l4mw/mxNZF3_v2OQ.jpg"></a>
+    <a data-fancybox="gallery" data-caption="🍇 Анонс для Клуб любителей собак Верный" class="gallery" href="https://sun9-37.userapi.com/bhkR8lChnwpe8Uliq_loafJnzNKdTtPtWWUkVQ/dN9VTv1lE4s.jpg"><img src="https://sun9-37.userapi.com/bhkR8lChnwpe8Uliq_loafJnzNKdTtPtWWUkVQ/dN9VTv1lE4s.jpg"></a>
   </div>
     </div>
     <br>
@@ -66,13 +68,15 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="/slick-1.8.1/slick/slick.min.js"></script>
+<script src="/script.js"></script>
         <script>
             $(document).ready(function(){
       $('.slider').slick({
         slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
-  dots:true
+  dots:true,
+  arrows: false
       });
     });
         </script>
