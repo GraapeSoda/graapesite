@@ -63,8 +63,8 @@ html,body {
 }
 
 #third-circle {
-    top: 35%;
-    left: 65%;
+    top: 37%;
+    left: 67%;
     height: 50px;
     width: 50px;
 }
@@ -147,4 +147,65 @@ html,body {
 
 .dark .about {
     color: white;
+}
+
+.dark .seti {
+    color: white;
+}
+
+.seti {
+    color: black;
+}
+
+@media (max-width:880px){
+
+    .circle {
+        width: 50px;
+        height: 50px;
+        left: 5%;
+        z-index: 0;
+    }
+
+    .good-stuff h1 {
+        z-index: 1;
+        font-size: 40px;
+    }
+    
+    #second-circle {
+        top: 2%;
+        width: 65px;
+        height: 65px;
+    }
+
+    #third-circle {
+        top: 20%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .seti img {
+        width: 10%;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .moon {
+        width: 5%;
+    }
+}
+
+@media (max-width: 1024px) {
+    #third-circle {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .circle {
+        display: none;
+    }
 }
